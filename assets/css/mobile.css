@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1023px) {
+    .menu-lateral,
+    .rodape,
+    .cabecalho__botao,
+    .secao-horizontal .cartao__subtitulo,
+    .secao-horizontal .cartao__botao,
+    .secao-horizontal .cartao__player,
+    .secao-vertical .secao__link {
+        display: none;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar {
+        display: block;
+    }   
+
+    .cabecalho {
+        justify-self: center;
+    }
+
+    .secao-horizontal .cartao {
+        column-gap: .5rem;
+    }
+
+    .secao-horizontal .cartao__imagem {
+        height: 4.58rem;
+    }
+ 
+    .secao-horizontal .cartao__titulo {
+        font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
+    }
+
+    .secao-vertical .cartao {
+        background-color: transparent;
+        padding: 0;
+    }
+
+}
